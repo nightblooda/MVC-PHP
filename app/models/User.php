@@ -36,11 +36,11 @@
         
         return $row_detail;
       }else {
-        $data['error']= "error";//this array value is not passing to defaultpage
+        $data['error']= "error";//ERROR: this array value is not passing to defaultpage
         return false;
       }
       }else{
-        $data['error']= 'error';//this array value is not passing to defaultpage
+        $data['error']= 'error';//ERROR: this array value is not passing to defaultpage
         return false;
       }
     }
